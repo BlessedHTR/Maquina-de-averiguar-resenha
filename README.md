@@ -7,4 +7,4 @@ __1.__ Presença da palavra "resenha" no arquivo especificado.\
 __2.__ Quantas vezes a palavra "resenha" aparece.\
 __3.__ A porcentagem do texto ocupada pela palavra "resenha".
 ## Instalação
-Você pode optar por instalar o arquivo .exe ou pode baixar o código fonte em Python e usá-lo assim.
+Você pode optar por instalar o .exe ou pode baixar o código fonte em Python e usá-lo assim.

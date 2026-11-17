@@ -1,6 +1,7 @@
 import tkinter as tk
 def averiguar():
-    texto = str(open(arquivo.get(), "r").read())
+    arquivo_a_abrir = open(arquivo.get(), "r")
+    texto = str(arquivo_a_abrir.read())
     if "resenha" in texto:
         resultado.config(text="RESENHA DETECTADA!!!")
         vezes.config(text=str(texto.count("resenha")) + " vezes")
@@ -9,6 +10,7 @@ def averiguar():
         resultado.config(text="sem resenha aqui.")
         vezes.config(text="")
         porcentagem.config(text="")
+    arquivo_a_abrir.close()
 root = tk.Tk()
 root.title("MAQUINA DE AVERIGUAR RESENHA MODELO 67000")
 root.geometry("600x150")
